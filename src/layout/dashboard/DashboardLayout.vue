@@ -1,14 +1,14 @@
 <template>
   <!--Control all layout elements-->
   <div class="wrapper">
-    <side-bar>
-      <template slot="links">
-        <sidebar-link to="/dashboard" :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36"/>
-        <sidebar-link to="/notifications" :name="$t('sidebar.notifications')" icon="tim-icons icon-bell-55"/>
-      </template>
-    </side-bar>
+<!--    <side-bar>-->
+<!--      <template slot="links">-->
+<!--        <sidebar-link to="/dashboard" :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36"/>-->
+<!--        <sidebar-link to="/notifications" :name="$t('sidebar.notifications')" icon="tim-icons icon-bell-55"/>-->
+<!--      </template>-->
+<!--    </side-bar>-->
     <div class="main-panel">
-      <top-navbar></top-navbar>
+<!--      <top-navbar></top-navbar>-->
 
       <dashboard-content @click.native="toggleSidebar">
 
