@@ -78,7 +78,9 @@ export default {
 
   position: relative;
   top: -230px;
-  left: -1850px;
+
+  left: -450px;
+
 
 }
 

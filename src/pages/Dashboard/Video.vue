@@ -1,10 +1,12 @@
 <template>
   <div>
-    <h2 id="title">人手防护安全预警系统</h2>
-    <img src="img/vichnetlog.png" id="log"/>
+
+<!--    <h2 id="title">人手防护安全预警系统</h2>-->
+<!--    <img src="img/vichnetlog.png" id="log"/>-->
     <img src="img/videoImg.png" id="vid"/>
 
-    <SelectLanguage id="lang"></SelectLanguage>
+<!--    <SelectLanguage id="lang"></SelectLanguage>-->
+
     <Time id="time"></Time>
 
   </div>
@@ -31,30 +33,9 @@ export default {
   top: 15px;
   width: 480px;
   height: 270px;
-  left: -150px;
-}
-#log{
-  width: 150px;
-  transform:scale(1.2);
 
-  position: relative;
-  top: -180px;
-  left: 15px;
 }
-#title{
-  position: relative;
 
-  left: 230px;
-  width: 400px;
-  top: 5px;
-}
-#lang{
-  position: relative;
-  transform:scale(1.2);
-
-  top: -175px;
-  left: -50px;
-}
 #time{
   position: relative;
   top: 17px;
