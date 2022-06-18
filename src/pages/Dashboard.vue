@@ -1,5 +1,6 @@
 <template>
 
+
   <div  class="op-box" :class="{'alert':alertColor}">
     <div id="roof">
       <SelectLanguage id="lang"></SelectLanguage>
@@ -17,15 +18,19 @@
   import alertNote from './Notifications/alertNotification';
   import { BaseAlert } from '@/components';
   import FunctionButton from "@/pages/Dashboard/FunctionButton";
+
   import SelectLanguage from "@/pages/Dashboard/SelectLanguage";
 
   require('../assets/css/roof.css')
 
+
   export default {
     components: {
       FunctionButton,
+
       BaseAlert,
       SelectLanguage
+
     },
     data() {
       return {
@@ -61,6 +66,7 @@
   #cardID{
     width: 100%;
     margin:0;
+
     transform:scale(1.05);
 
     position: relative;
@@ -68,5 +74,6 @@
     height: 430px;
     background-color: #444647;
   }
+
 
 </style>
